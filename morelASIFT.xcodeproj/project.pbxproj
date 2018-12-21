@@ -7,7 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB92AC6F21CCFC0A00052BFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92AC6E21CCFC0A00052BFD /* main.cpp */; };
+		AB92AC8621CCFC5E00052BFD /* libopencv_ml.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7621CCFC5D00052BFD /* libopencv_ml.3.3.1.dylib */; };
+		AB92AC8721CCFC5E00052BFD /* libopencv_videoio.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7721CCFC5D00052BFD /* libopencv_videoio.3.3.1.dylib */; };
+		AB92AC8821CCFC5E00052BFD /* libopencv_highgui.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7821CCFC5D00052BFD /* libopencv_highgui.3.3.1.dylib */; };
+		AB92AC8921CCFC5E00052BFD /* libopencv_ccalib.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7921CCFC5D00052BFD /* libopencv_ccalib.3.3.1.dylib */; };
+		AB92AC8A21CCFC5E00052BFD /* libopencv_photo.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7A21CCFC5D00052BFD /* libopencv_photo.3.3.1.dylib */; };
+		AB92AC8B21CCFC5E00052BFD /* libopencv_line_descriptor.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7B21CCFC5D00052BFD /* libopencv_line_descriptor.3.3.1.dylib */; };
+		AB92AC8C21CCFC5E00052BFD /* libopencv_img_hash.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7C21CCFC5D00052BFD /* libopencv_img_hash.3.3.1.dylib */; };
+		AB92AC8D21CCFC5E00052BFD /* libopencv_imgproc.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7D21CCFC5D00052BFD /* libopencv_imgproc.3.3.1.dylib */; };
+		AB92AC8E21CCFC5E00052BFD /* libopencv_features2d.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7E21CCFC5E00052BFD /* libopencv_features2d.3.3.1.dylib */; };
+		AB92AC8F21CCFC5E00052BFD /* libopencv_calib3d.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC7F21CCFC5E00052BFD /* libopencv_calib3d.3.3.1.dylib */; };
+		AB92AC9021CCFC5E00052BFD /* libopencv_text.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC8021CCFC5E00052BFD /* libopencv_text.3.3.1.dylib */; };
+		AB92AC9121CCFC5E00052BFD /* libopencv_core.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC8121CCFC5E00052BFD /* libopencv_core.3.3.1.dylib */; };
+		AB92AC9221CCFC5E00052BFD /* libopencv_video.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC8221CCFC5E00052BFD /* libopencv_video.3.3.1.dylib */; };
+		AB92AC9321CCFC5E00052BFD /* libopencv_flann.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC8321CCFC5E00052BFD /* libopencv_flann.3.3.1.dylib */; };
+		AB92AC9421CCFC5E00052BFD /* libopencv_plot.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC8421CCFC5E00052BFD /* libopencv_plot.3.3.1.dylib */; };
+		AB92AC9521CCFC5E00052BFD /* libopencv_imgcodecs.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92AC8521CCFC5E00052BFD /* libopencv_imgcodecs.3.3.1.dylib */; };
+		AB92AC9E21CCFC6700052BFD /* match_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92AC9721CCFC6700052BFD /* match_util.cpp */; };
+		AB92AC9F21CCFC6700052BFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92AC9821CCFC6700052BFD /* main.cpp */; };
+		AB92ACA021CCFC6700052BFD /* MatchingModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92AC9C21CCFC6700052BFD /* MatchingModel.cpp */; };
+		AB92ACA121CCFC6700052BFD /* evaluation_kit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92AC9D21CCFC6700052BFD /* evaluation_kit.cpp */; };
+		AB92ACB821CCFC6F00052BFD /* library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACA421CCFC6E00052BFD /* library.cpp */; };
+		AB92ACB921CCFC6F00052BFD /* domain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACA521CCFC6E00052BFD /* domain.cpp */; };
+		AB92ACBA21CCFC6F00052BFD /* filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACA621CCFC6E00052BFD /* filter.cpp */; };
+		AB92ACBB21CCFC6F00052BFD /* morel_asift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACAA21CCFC6F00052BFD /* morel_asift.cpp */; };
+		AB92ACBC21CCFC6F00052BFD /* compute_asift_keypoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACAB21CCFC6F00052BFD /* compute_asift_keypoints.cpp */; };
+		AB92ACBD21CCFC6F00052BFD /* flimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACAC21CCFC6F00052BFD /* flimage.cpp */; };
+		AB92ACBE21CCFC6F00052BFD /* demo_lib_sift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACAD21CCFC6F00052BFD /* demo_lib_sift.cpp */; };
+		AB92ACBF21CCFC6F00052BFD /* frot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACAE21CCFC6F00052BFD /* frot.cpp */; };
+		AB92ACC021CCFC6F00052BFD /* fproj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACAF21CCFC6F00052BFD /* fproj.cpp */; };
+		AB92ACC121CCFC6F00052BFD /* numerics1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACB121CCFC6F00052BFD /* numerics1.cpp */; };
+		AB92ACC221CCFC6F00052BFD /* splines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB92ACB621CCFC6F00052BFD /* splines.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +54,52 @@
 
 /* Begin PBXFileReference section */
 		AB92AC6B21CCFC0A00052BFD /* morelASIFT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = morelASIFT; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB92AC6E21CCFC0A00052BFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB92AC7621CCFC5D00052BFD /* libopencv_ml.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.3.3.1.dylib; path = openCV/libopencv_ml.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7721CCFC5D00052BFD /* libopencv_videoio.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videoio.3.3.1.dylib; path = openCV/libopencv_videoio.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7821CCFC5D00052BFD /* libopencv_highgui.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.3.1.dylib; path = openCV/libopencv_highgui.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7921CCFC5D00052BFD /* libopencv_ccalib.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ccalib.3.3.1.dylib; path = openCV/libopencv_ccalib.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7A21CCFC5D00052BFD /* libopencv_photo.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_photo.3.3.1.dylib; path = openCV/libopencv_photo.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7B21CCFC5D00052BFD /* libopencv_line_descriptor.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_line_descriptor.3.3.1.dylib; path = openCV/libopencv_line_descriptor.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7C21CCFC5D00052BFD /* libopencv_img_hash.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_img_hash.3.3.1.dylib; path = openCV/libopencv_img_hash.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7D21CCFC5D00052BFD /* libopencv_imgproc.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.3.1.dylib; path = openCV/libopencv_imgproc.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7E21CCFC5E00052BFD /* libopencv_features2d.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_features2d.3.3.1.dylib; path = openCV/libopencv_features2d.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC7F21CCFC5E00052BFD /* libopencv_calib3d.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.3.3.1.dylib; path = openCV/libopencv_calib3d.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC8021CCFC5E00052BFD /* libopencv_text.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_text.3.3.1.dylib; path = openCV/libopencv_text.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC8121CCFC5E00052BFD /* libopencv_core.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.3.1.dylib; path = openCV/libopencv_core.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC8221CCFC5E00052BFD /* libopencv_video.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.3.3.1.dylib; path = openCV/libopencv_video.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC8321CCFC5E00052BFD /* libopencv_flann.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.3.3.1.dylib; path = openCV/libopencv_flann.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC8421CCFC5E00052BFD /* libopencv_plot.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_plot.3.3.1.dylib; path = openCV/libopencv_plot.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC8521CCFC5E00052BFD /* libopencv_imgcodecs.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.3.3.1.dylib; path = openCV/libopencv_imgcodecs.3.3.1.dylib; sourceTree = SOURCE_ROOT; };
+		AB92AC9621CCFC6700052BFD /* match_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = match_util.h; path = src/match_util.h; sourceTree = "<group>"; };
+		AB92AC9721CCFC6700052BFD /* match_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = match_util.cpp; path = src/match_util.cpp; sourceTree = "<group>"; };
+		AB92AC9821CCFC6700052BFD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		AB92AC9921CCFC6700052BFD /* MatchingModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MatchingModel.hpp; path = src/MatchingModel.hpp; sourceTree = "<group>"; };
+		AB92AC9A21CCFC6700052BFD /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = define.h; path = src/define.h; sourceTree = "<group>"; };
+		AB92AC9B21CCFC6700052BFD /* evaluation_kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evaluation_kit.h; path = src/evaluation_kit.h; sourceTree = "<group>"; };
+		AB92AC9C21CCFC6700052BFD /* MatchingModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchingModel.cpp; path = src/MatchingModel.cpp; sourceTree = "<group>"; };
+		AB92AC9D21CCFC6700052BFD /* evaluation_kit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = evaluation_kit.cpp; path = src/evaluation_kit.cpp; sourceTree = "<group>"; };
+		AB92ACA221CCFC6E00052BFD /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter.h; path = morel_asift/filter.h; sourceTree = "<group>"; };
+		AB92ACA321CCFC6E00052BFD /* morel_asift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = morel_asift.h; path = morel_asift/morel_asift.h; sourceTree = "<group>"; };
+		AB92ACA421CCFC6E00052BFD /* library.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = library.cpp; path = morel_asift/library.cpp; sourceTree = "<group>"; };
+		AB92ACA521CCFC6E00052BFD /* domain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = domain.cpp; path = morel_asift/domain.cpp; sourceTree = "<group>"; };
+		AB92ACA621CCFC6E00052BFD /* filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filter.cpp; path = morel_asift/filter.cpp; sourceTree = "<group>"; };
+		AB92ACA721CCFC6E00052BFD /* compute_asift_keypoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compute_asift_keypoints.h; path = morel_asift/compute_asift_keypoints.h; sourceTree = "<group>"; };
+		AB92ACA821CCFC6F00052BFD /* fproj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fproj.h; path = morel_asift/fproj.h; sourceTree = "<group>"; };
+		AB92ACA921CCFC6F00052BFD /* frot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frot.h; path = morel_asift/frot.h; sourceTree = "<group>"; };
+		AB92ACAA21CCFC6F00052BFD /* morel_asift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = morel_asift.cpp; path = morel_asift/morel_asift.cpp; sourceTree = "<group>"; };
+		AB92ACAB21CCFC6F00052BFD /* compute_asift_keypoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compute_asift_keypoints.cpp; path = morel_asift/compute_asift_keypoints.cpp; sourceTree = "<group>"; };
+		AB92ACAC21CCFC6F00052BFD /* flimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flimage.cpp; path = morel_asift/flimage.cpp; sourceTree = "<group>"; };
+		AB92ACAD21CCFC6F00052BFD /* demo_lib_sift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = demo_lib_sift.cpp; path = morel_asift/demo_lib_sift.cpp; sourceTree = "<group>"; };
+		AB92ACAE21CCFC6F00052BFD /* frot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = frot.cpp; path = morel_asift/frot.cpp; sourceTree = "<group>"; };
+		AB92ACAF21CCFC6F00052BFD /* fproj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fproj.cpp; path = morel_asift/fproj.cpp; sourceTree = "<group>"; };
+		AB92ACB021CCFC6F00052BFD /* library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = library.h; path = morel_asift/library.h; sourceTree = "<group>"; };
+		AB92ACB121CCFC6F00052BFD /* numerics1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = numerics1.cpp; path = morel_asift/numerics1.cpp; sourceTree = "<group>"; };
+		AB92ACB221CCFC6F00052BFD /* numerics1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = numerics1.h; path = morel_asift/numerics1.h; sourceTree = "<group>"; };
+		AB92ACB321CCFC6F00052BFD /* flimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flimage.h; path = morel_asift/flimage.h; sourceTree = "<group>"; };
+		AB92ACB421CCFC6F00052BFD /* demo_lib_sift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = demo_lib_sift.h; path = morel_asift/demo_lib_sift.h; sourceTree = "<group>"; };
+		AB92ACB521CCFC6F00052BFD /* domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = domain.h; path = morel_asift/domain.h; sourceTree = "<group>"; };
+		AB92ACB621CCFC6F00052BFD /* splines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = splines.cpp; path = morel_asift/splines.cpp; sourceTree = "<group>"; };
+		AB92ACB721CCFC6F00052BFD /* splines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = splines.h; path = morel_asift/splines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +107,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB92AC9321CCFC5E00052BFD /* libopencv_flann.3.3.1.dylib in Frameworks */,
+				AB92AC9521CCFC5E00052BFD /* libopencv_imgcodecs.3.3.1.dylib in Frameworks */,
+				AB92AC8E21CCFC5E00052BFD /* libopencv_features2d.3.3.1.dylib in Frameworks */,
+				AB92AC8F21CCFC5E00052BFD /* libopencv_calib3d.3.3.1.dylib in Frameworks */,
+				AB92AC8A21CCFC5E00052BFD /* libopencv_photo.3.3.1.dylib in Frameworks */,
+				AB92AC8821CCFC5E00052BFD /* libopencv_highgui.3.3.1.dylib in Frameworks */,
+				AB92AC8D21CCFC5E00052BFD /* libopencv_imgproc.3.3.1.dylib in Frameworks */,
+				AB92AC8721CCFC5E00052BFD /* libopencv_videoio.3.3.1.dylib in Frameworks */,
+				AB92AC9221CCFC5E00052BFD /* libopencv_video.3.3.1.dylib in Frameworks */,
+				AB92AC8C21CCFC5E00052BFD /* libopencv_img_hash.3.3.1.dylib in Frameworks */,
+				AB92AC9121CCFC5E00052BFD /* libopencv_core.3.3.1.dylib in Frameworks */,
+				AB92AC9421CCFC5E00052BFD /* libopencv_plot.3.3.1.dylib in Frameworks */,
+				AB92AC8B21CCFC5E00052BFD /* libopencv_line_descriptor.3.3.1.dylib in Frameworks */,
+				AB92AC8921CCFC5E00052BFD /* libopencv_ccalib.3.3.1.dylib in Frameworks */,
+				AB92AC8621CCFC5E00052BFD /* libopencv_ml.3.3.1.dylib in Frameworks */,
+				AB92AC9021CCFC5E00052BFD /* libopencv_text.3.3.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +132,7 @@
 		AB92AC6221CCFC0A00052BFD = {
 			isa = PBXGroup;
 			children = (
+				AB92AC7521CCFC3700052BFD /* openCV */,
 				AB92AC6D21CCFC0A00052BFD /* morelASIFT */,
 				AB92AC6C21CCFC0A00052BFD /* Products */,
 			);
@@ -57,9 +149,62 @@
 		AB92AC6D21CCFC0A00052BFD /* morelASIFT */ = {
 			isa = PBXGroup;
 			children = (
-				AB92AC6E21CCFC0A00052BFD /* main.cpp */,
+				AB92ACAB21CCFC6F00052BFD /* compute_asift_keypoints.cpp */,
+				AB92ACA721CCFC6E00052BFD /* compute_asift_keypoints.h */,
+				AB92ACAD21CCFC6F00052BFD /* demo_lib_sift.cpp */,
+				AB92ACB421CCFC6F00052BFD /* demo_lib_sift.h */,
+				AB92ACA521CCFC6E00052BFD /* domain.cpp */,
+				AB92ACB521CCFC6F00052BFD /* domain.h */,
+				AB92ACA621CCFC6E00052BFD /* filter.cpp */,
+				AB92ACA221CCFC6E00052BFD /* filter.h */,
+				AB92ACAC21CCFC6F00052BFD /* flimage.cpp */,
+				AB92ACB321CCFC6F00052BFD /* flimage.h */,
+				AB92ACAF21CCFC6F00052BFD /* fproj.cpp */,
+				AB92ACA821CCFC6F00052BFD /* fproj.h */,
+				AB92ACAE21CCFC6F00052BFD /* frot.cpp */,
+				AB92ACA921CCFC6F00052BFD /* frot.h */,
+				AB92ACA421CCFC6E00052BFD /* library.cpp */,
+				AB92ACB021CCFC6F00052BFD /* library.h */,
+				AB92ACAA21CCFC6F00052BFD /* morel_asift.cpp */,
+				AB92ACA321CCFC6E00052BFD /* morel_asift.h */,
+				AB92ACB121CCFC6F00052BFD /* numerics1.cpp */,
+				AB92ACB221CCFC6F00052BFD /* numerics1.h */,
+				AB92ACB621CCFC6F00052BFD /* splines.cpp */,
+				AB92ACB721CCFC6F00052BFD /* splines.h */,
+				AB92AC9A21CCFC6700052BFD /* define.h */,
+				AB92AC9D21CCFC6700052BFD /* evaluation_kit.cpp */,
+				AB92AC9B21CCFC6700052BFD /* evaluation_kit.h */,
+				AB92AC9821CCFC6700052BFD /* main.cpp */,
+				AB92AC9721CCFC6700052BFD /* match_util.cpp */,
+				AB92AC9621CCFC6700052BFD /* match_util.h */,
+				AB92AC9C21CCFC6700052BFD /* MatchingModel.cpp */,
+				AB92AC9921CCFC6700052BFD /* MatchingModel.hpp */,
 			);
 			path = morelASIFT;
+			sourceTree = "<group>";
+		};
+		AB92AC7521CCFC3700052BFD /* openCV */ = {
+			isa = PBXGroup;
+			children = (
+				AB92AC7F21CCFC5E00052BFD /* libopencv_calib3d.3.3.1.dylib */,
+				AB92AC7921CCFC5D00052BFD /* libopencv_ccalib.3.3.1.dylib */,
+				AB92AC8121CCFC5E00052BFD /* libopencv_core.3.3.1.dylib */,
+				AB92AC7E21CCFC5E00052BFD /* libopencv_features2d.3.3.1.dylib */,
+				AB92AC8321CCFC5E00052BFD /* libopencv_flann.3.3.1.dylib */,
+				AB92AC7821CCFC5D00052BFD /* libopencv_highgui.3.3.1.dylib */,
+				AB92AC7C21CCFC5D00052BFD /* libopencv_img_hash.3.3.1.dylib */,
+				AB92AC8521CCFC5E00052BFD /* libopencv_imgcodecs.3.3.1.dylib */,
+				AB92AC7D21CCFC5D00052BFD /* libopencv_imgproc.3.3.1.dylib */,
+				AB92AC7B21CCFC5D00052BFD /* libopencv_line_descriptor.3.3.1.dylib */,
+				AB92AC7621CCFC5D00052BFD /* libopencv_ml.3.3.1.dylib */,
+				AB92AC7A21CCFC5D00052BFD /* libopencv_photo.3.3.1.dylib */,
+				AB92AC8421CCFC5E00052BFD /* libopencv_plot.3.3.1.dylib */,
+				AB92AC8021CCFC5E00052BFD /* libopencv_text.3.3.1.dylib */,
+				AB92AC8221CCFC5E00052BFD /* libopencv_video.3.3.1.dylib */,
+				AB92AC7721CCFC5D00052BFD /* libopencv_videoio.3.3.1.dylib */,
+			);
+			name = openCV;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +263,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB92AC6F21CCFC0A00052BFD /* main.cpp in Sources */,
+				AB92AC9F21CCFC6700052BFD /* main.cpp in Sources */,
+				AB92ACBA21CCFC6F00052BFD /* filter.cpp in Sources */,
+				AB92ACA021CCFC6700052BFD /* MatchingModel.cpp in Sources */,
+				AB92ACC021CCFC6F00052BFD /* fproj.cpp in Sources */,
+				AB92ACA121CCFC6700052BFD /* evaluation_kit.cpp in Sources */,
+				AB92ACC221CCFC6F00052BFD /* splines.cpp in Sources */,
+				AB92AC9E21CCFC6700052BFD /* match_util.cpp in Sources */,
+				AB92ACBC21CCFC6F00052BFD /* compute_asift_keypoints.cpp in Sources */,
+				AB92ACBB21CCFC6F00052BFD /* morel_asift.cpp in Sources */,
+				AB92ACB821CCFC6F00052BFD /* library.cpp in Sources */,
+				AB92ACBF21CCFC6F00052BFD /* frot.cpp in Sources */,
+				AB92ACB921CCFC6F00052BFD /* domain.cpp in Sources */,
+				AB92ACBD21CCFC6F00052BFD /* flimage.cpp in Sources */,
+				AB92ACBE21CCFC6F00052BFD /* demo_lib_sift.cpp in Sources */,
+				AB92ACC121CCFC6F00052BFD /* numerics1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +398,19 @@
 		AB92AC7321CCFC0A00052BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UVA762SN3U;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/3.3.1_1/include,
+					"$(inherited)/morel_asift",
+					"$(inherited)/src",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openCV",
+					/usr/local/Cellar/opencv/3.3.1_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,8 +418,19 @@
 		AB92AC7421CCFC0A00052BFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UVA762SN3U;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/3.3.1_1/include,
+					"$(inherited)/morel_asift",
+					"$(inherited)/src",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openCV",
+					/usr/local/Cellar/opencv/3.3.1_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
